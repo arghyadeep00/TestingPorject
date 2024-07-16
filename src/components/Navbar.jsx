@@ -3,15 +3,11 @@ import '../App.css'
 import { FaAngleDown } from "react-icons/fa6";
 function Navbar() {
     const handelMouseIn = () => {
-        // alert("mouse enter")
         const dropdown = document.getElementById("dropdown");
         dropdown.classList.toggle("hidden")
     }
-    dropdown.classList.toggle("hidden")
-    const handelMouseOut=()=>{
-        const dropdown = document.getElementById("dropdown");
-
-    }
+  
+    
     return (
         <>
 
@@ -28,7 +24,7 @@ function Navbar() {
                             <li>
                                 <a href="#" className="py-2 px-3 text-white" aria-current="page">Home</a>
                             </li>
-                            <li className='relative' onMouseOver={handelMouseIn} onMouseOut={handelMouseOut} >
+                            <li className='relative' onMouseOver={handelMouseIn} >
                                 <a href="#" className="py-2 px-3 text-white" aria-current="page">About Us</a>
                                 <FaAngleDown className='inline fill-white' />
 
