@@ -1,3 +1,6 @@
+*{
+  user-select: none;
+}
 .btn{
   background-color: #ff471a;
   color: white;
