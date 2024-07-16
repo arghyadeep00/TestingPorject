@@ -12,11 +12,11 @@ function Navbar() {
         <>
             <nav className="bg-[white]  border-gray-200 ">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
+                    <a href="" className="flex items-center">
                         <img src="../../public/images/logo.png" className="h-8" alt="Flowbite Logo" />
                     </a>
                     <div className="hidden w-full md:block md:w-auto" id="navbar-multi-level">
-                        <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                        <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
                             <li className=''>
                                 <NavLink to={"/"} className="">Home</NavLink>
                             </li>
