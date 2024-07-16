@@ -4,3 +4,9 @@
   padding: 4px 13px;
   border-radius: 8px;
 }
+.active{
+  color: #ff471a;
+}
+.item{
+  color: white;
+}
