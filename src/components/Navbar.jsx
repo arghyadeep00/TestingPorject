@@ -25,7 +25,7 @@ function Navbar() {
                                     <p className="" aria-current="page">About Us</p>
                                     <FaAngleDown className='' />
                                 </div>
-                                <ul className='hidden absolute mx-2 my-4 bg-[#ff471a] rounded-md py-3 flex flex-col gap-3' id='dropdown'>
+                                <ul className='hidden absolute mx-2 my-4 bg-[green] rounded-md py-3 flex flex-col gap-3 z-10' id='dropdown'>
                                     <li className='px-5 '>
                                         <NavLink to={"/aboutus"}>About_Us</NavLink>
                                     </li>
